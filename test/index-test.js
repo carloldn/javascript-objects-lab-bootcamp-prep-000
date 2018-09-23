@@ -5,7 +5,7 @@ describe('Objects', function() {
     expect(typeof recipes).toEqual('object')
   })
 
-  describe('updateObjectWithKeyAndValue(object, key, value)', function() {
+  describe('updateObjectWithKeyAndValue(object, key, value)', function(object) {
     it('returns an object with the orignal key value pairs and the new key value pair', function() {
       var obj = { prop: 1 }
 
